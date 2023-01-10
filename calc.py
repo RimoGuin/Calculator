@@ -1,11 +1,7 @@
-# Import packages
 from tkinter import *
 import math
 import numpy as np
 
-'''
-Functions
-'''
 # Function to add in the entry of text display
 def button_click(char):
     global calc_operator
@@ -129,9 +125,6 @@ text_display = Entry(tk_calc, font=('Cascadia Code', 20), textvariable=text_inpu
 button_params = {'bd':5, 'fg':'#BBB', 'bg':'#3C3636', 'font':('Cascadia Code', 20)}
 button_params_main = {'bd':5, 'fg':'#000', 'bg':'#BBB', 'font':('Cascadia Code', 20)}
 
-'''
-Buttons
-'''
 #--1st row--
 # Absolute value of a number
 abs_value = Button(tk_calc, button_params, text='abs',
